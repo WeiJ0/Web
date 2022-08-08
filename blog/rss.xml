@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>WJ 開發踩雷&amp;新鮮東西筆記站 Blog</title>
+        <link>https://WeiJ0.github.io/Web/blog</link>
+        <description>WJ 開發踩雷&amp;新鮮東西筆記站 Blog</description>
+        <lastBuildDate>Mon, 08 Aug 2022 02:48:55 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[筆記--序]]></title>
+            <link>https://WeiJ0.github.io/Web/blog/first-blog-post</link>
+            <guid>first-blog-post</guid>
+            <pubDate>Mon, 08 Aug 2022 02:48:55 GMT</pubDate>
+            <description><![CDATA[不知不覺的進入了工作的第三個年頭，]]></description>
+            <content:encoded><![CDATA[<p>不知不覺的進入了工作的第三個年頭，</p><p>感覺還是軟體前端小白的我每天努力的東學一點西學一點的時刻還歷歷在目，</p><p>近期有想過找一份新的工作往新的航道前進，</p><p>但回顧這兩年究竟學到了些什麼可以做些什麼，</p><p>說實在有些空白，於是就想效仿一些前輩開一個 Blog 記錄著工作或學習中學到了什麼新知</p><p>也剛好最近在學習 React 恰巧 Docusaurus 就是用 React 去編輯真是一舉兩得</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

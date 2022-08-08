@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://WeiJ0.github.io/Web/blog</id>
+    <title>WJ 開發踩雷&amp;新鮮東西筆記站 Blog</title>
+    <updated>2022-08-08T02:48:55.658Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://WeiJ0.github.io/Web/blog"/>
+    <subtitle>WJ 開發踩雷&amp;新鮮東西筆記站 Blog</subtitle>
+    <icon>https://WeiJ0.github.io/Web/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[筆記--序]]></title>
+        <id>first-blog-post</id>
+        <link href="https://WeiJ0.github.io/Web/blog/first-blog-post"/>
+        <updated>2022-08-08T02:48:55.658Z</updated>
+        <summary type="html"><![CDATA[不知不覺的進入了工作的第三個年頭，]]></summary>
+        <content type="html"><![CDATA[<p>不知不覺的進入了工作的第三個年頭，</p><p>感覺還是軟體前端小白的我每天努力的東學一點西學一點的時刻還歷歷在目，</p><p>近期有想過找一份新的工作往新的航道前進，</p><p>但回顧這兩年究竟學到了些什麼可以做些什麼，</p><p>說實在有些空白，於是就想效仿一些前輩開一個 Blog 記錄著工作或學習中學到了什麼新知</p><p>也剛好最近在學習 React 恰巧 Docusaurus 就是用 React 去編輯真是一舉兩得</p>]]></content>
+        <author>
+            <name>WeiJie</name>
+        </author>
+    </entry>
+</feed>
