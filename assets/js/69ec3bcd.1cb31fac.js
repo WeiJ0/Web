@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3342],{5365:e=>{e.exports=JSON.parse('{"label":"deta","permalink":"/Web/docs/tags/deta","allTagsPath":"/Web/docs/tags","count":1,"items":[{"id":"Deta/intro","title":"Deta\uff0cHeroku \u7d50\u675f\u514d\u8cbb\u7684\u65b9\u6848\u4e4b\u4e00","description":"","permalink":"/Web/docs/Deta/intro"}]}')}}]);
