@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[882],{9054:e=>{e.exports=JSON.parse('{"label":"Line Notify","permalink":"/Web/blog/tags/line-notify","allTagsPath":"/Web/blog/tags","count":1}')}}]);
