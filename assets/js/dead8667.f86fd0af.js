@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7880],{519:e=>{e.exports=JSON.parse('{"label":"puppeteer","permalink":"/Web/blog/tags/puppeteer","allTagsPath":"/Web/blog/tags","count":1}')}}]);
