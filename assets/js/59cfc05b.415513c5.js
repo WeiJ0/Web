@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9479],{3036:e=>{e.exports=JSON.parse('[{"label":"5kyu","permalink":"/Web/codewars/tags/5-kyu","count":1},{"label":"6kyu","permalink":"/Web/codewars/tags/6-kyu","count":4},{"label":"7kyu","permalink":"/Web/codewars/tags/7-kyu","count":1}]')}}]);
