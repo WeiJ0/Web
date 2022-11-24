@@ -4,12 +4,31 @@
         <title>WJ 開發踩雷&amp;新鮮東西筆記站 Blog</title>
         <link>https://WeiJ0.github.io/Web/blog</link>
         <description>WJ 開發踩雷&amp;新鮮東西筆記站 Blog</description>
-        <lastBuildDate>Fri, 28 Oct 2022 11:51:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Nov 2022 11:51:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[設定自己的程式碼片段，讓開發 Turbo 起來 ⚡]]></title>
+            <title><![CDATA[為什麼不再使用 create-react-app]]></title>
+            <link>https://WeiJ0.github.io/Web/blog/WhyNot_Create_React_App</link>
+            <guid>WhyNot_Create_React_App</guid>
+            <pubDate>Thu, 24 Nov 2022 11:51:00 GMT</pubDate>
+            <description><![CDATA[CRA 透過 webpack 來 bundle 你的專案，而 webpack 會將你的專案打包成一個檔案，這個檔案會包含你的所有程式碼，包含你的第三方套件，這樣的好處是可以讓你的專案在瀏覽器上執行，但是缺點是每次你修改程式碼，都會重新打包，這樣就會花費更多的時間等待。而在近期更是有 vite turbopack 這些強大的工具出世，大大的改善了這些缺點]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言<a class="hash-link" href="#前言" title="Direct link to heading">​</a></h2><p>以往最開始學 React 的時候，起手式都是 <b style="color:var(--ifm-color-primary)"> create-react-app</b> (文中會簡稱為 <code>CRA</code>)</p><p>它的出現簡化了再專案最初期建置的時間，透過 cmd 就可以快速建起一個可以運行的 React 專案</p><p>再初期學習的我們能夠快速看到一個結果，一定會信心大增。但隨著程式越寫越多，專案越來越大時<br>
+<!-- -->會發現每次執行 <code>dev</code> 指令等待的時間會越來越久。</p><p>原因是 CRA 透過 webpack 來 bundle 你的專案，而 webpack 會將你的專案打包成一個檔案，這個檔案會包含你的所有程式碼，包含你的第三方套件，這樣的好處是可以讓你的專案在瀏覽器上執行，但是缺點是每次你修改程式碼，都會重新打包，這樣就會花費更多的時間等待。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="vite">Vite<a class="hash-link" href="#vite" title="Direct link to heading">​</a></h2><p><a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer">Vite</a> 基於 esbuild，它的出現就是為了解決 webpack 打包的缺點，它不會將你的專案打包成一個檔案，而是將你的專案分成多個檔案，這樣就不會需要重新載入所有的程式碼<br>
+<!-- -->底層的部份由 Go 編寫，網路上其他大神實測出來，速度比 webpack 快 10 倍以上</p><p>而除了 React 之外，Vite 也支援 Vue、Svelte 等等的框架，所以成為越來越多工程師首選的開發工具<br>
+<!-- -->從 npm 的每週下載量及趨勢圖來看，兩者有著不小的差異</p><p><img loading="lazy" alt="cra vs vite" src="/Web/assets/images/cra-vite-e95cd2048e8ae9cafa2a5d896137175b.png" width="750" height="231" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="turbopack">Turbopack<a class="hash-link" href="#turbopack" title="Direct link to heading">​</a></h2><p>而到了 2022 年的 10 月， Next.js 框架背後的 Vercel 公司公布一款號稱比 Vite 更快的工具降世了，它就是 <a href="https://turbopack.dev/" target="_blank" rel="noopener noreferrer">Turbopack</a>，
+這次 Turbopack 則是透過 Rust 開發，雖說官方數據能比 Vite 再快上 10 倍，實際上也引發了網路上眾多開發者的質疑。  </p><p>在實質數據上，在含有 3000 模組的專案中，Turbopack 花了 1.8 秒就可以啟動，而 Vite 花了 11.4 秒。</p><p>其背後與 vite 的差異除了語言外再者就是運用了 cache 做處理，esbuild 沒有做太多的 cache 處理，所以會執行同樣的工作非常多次，而導致整體速度下降。
+不過雖說如此但除非這開發到像是 3000 模組這種大專案，不然再感受上來說應該不會有太大的差異。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="心得">心得<a class="hash-link" href="#心得" title="Direct link to heading">​</a></h2><p>而在看完這場前端工具大戰及網路上眾多測試和評論後，我認為還是回歸最原始<br>
+<!-- -->這些工具開發的目的都是<mark>讓開發者能夠更專注於程式碼的開發上</mark><br>
+<!-- -->當然各個工具都有各自的擁護者，開發上選擇自己最熟悉使用的工具維護專案上才能有最好的效率</p><br><br>]]></content:encoded>
+            <category>React</category>
+            <category>Vite</category>
+            <category>Webpack</category>
+            <category>TurboPack</category>
+        </item>
+        <item>
+            <title><![CDATA[設定自己的程式碼片段，開發 Turbo 起來 ⚡]]></title>
             <link>https://WeiJ0.github.io/Web/blog/VSCode_Snippets</link>
             <guid>VSCode_Snippets</guid>
             <pubDate>Fri, 28 Oct 2022 11:51:00 GMT</pubDate>

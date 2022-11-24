@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1061],{7013:e=>{e.exports=JSON.parse('{"label":"TurboPack","permalink":"/Web/blog/tags/turbo-pack","allTagsPath":"/Web/blog/tags","count":1}')}}]);
