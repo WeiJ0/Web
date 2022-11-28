@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2706],{9212:e=>{e.exports=JSON.parse('{"label":"HexSchool","permalink":"/Web/blog/tags/hex-school","allTagsPath":"/Web/blog/tags","count":1}')}}]);
